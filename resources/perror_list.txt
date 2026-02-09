@@ -1,0 +1,134 @@
+Success: Success
+Operation not permitted: Success
+No such file or directory: Success
+No such process: Success
+Interrupted system call: Success
+Input/output error: Success
+No such device or address: Success
+Argument list too long: Success
+Exec format error: Success
+Bad file descriptor: Success
+No child processes: Success
+Resource temporarily unavailable: Success
+Cannot allocate memory: Success
+Permission denied: Success
+Bad address: Success
+Block device required: Success
+Device or resource busy: Success
+File exists: Success
+Invalid cross-device link: Success
+No such device: Success
+Not a directory: Success
+Is a directory: Success
+Invalid argument: Success
+Too many open files in system: Success
+Too many open files: Success
+Inappropriate ioctl for device: Success
+Text file busy: Success
+File too large: Success
+No space left on device: Success
+Illegal seek: Success
+Read-only file system: Success
+Too many links: Success
+Broken pipe: Success
+Numerical argument out of domain: Success
+Numerical result out of range: Success
+Resource deadlock avoided: Success
+File name too long: Success
+No locks available: Success
+Function not implemented: Success
+Directory not empty: Success
+Too many levels of symbolic links: Success
+Unknown error 41: Success
+No message of desired type: Success
+Identifier removed: Success
+Channel number out of range: Success
+Level 2 not synchronized: Success
+Level 3 halted: Success
+Level 3 reset: Success
+Link number out of range: Success
+Protocol driver not attached: Success
+No CSI structure available: Success
+Level 2 halted: Success
+Invalid exchange: Success
+Invalid request descriptor: Success
+Exchange full: Success
+No anode: Success
+Invalid request code: Success
+Invalid slot: Success
+Unknown error 58: Success
+Bad font file format: Success
+Device not a stream: Success
+No data available: Success
+Timer expired: Success
+Out of streams resources: Success
+Machine is not on the network: Success
+Package not installed: Success
+Object is remote: Success
+Link has been severed: Success
+Advertise error: Success
+Srmount error: Success
+Communication error on send: Success
+Protocol error: Success
+Multihop attempted: Success
+RFS specific error: Success
+Bad message: Success
+Value too large for defined data type: Success
+Name not unique on network: Success
+File descriptor in bad state: Success
+Remote address changed: Success
+Can not access a needed shared library: Success
+Accessing a corrupted shared library: Success
+.lib section in a.out corrupted: Success
+Attempting to link in too many shared libraries: Success
+Cannot exec a shared library directly: Success
+Invalid or incomplete multibyte or wide character: Success
+Interrupted system call should be restarted: Success
+Streams pipe error: Success
+Too many users: Success
+Socket operation on non-socket: Success
+Destination address required: Success
+Message too long: Success
+Protocol wrong type for socket: Success
+Protocol not available: Success
+Protocol not supported: Success
+Socket type not supported: Success
+Operation not supported: Success
+Protocol family not supported: Success
+Address family not supported by protocol: Success
+Address already in use: Success
+Cannot assign requested address: Success
+Network is down: Success
+Network is unreachable: Success
+Network dropped connection on reset: Success
+Software caused connection abort: Success
+Connection reset by peer: Success
+No buffer space available: Success
+Transport endpoint is already connected: Success
+Transport endpoint is not connected: Success
+Cannot send after transport endpoint shutdown: Success
+Too many references: cannot splice: Success
+Connection timed out: Success
+Connection refused: Success
+Host is down: Success
+No route to host: Success
+Operation already in progress: Success
+Operation now in progress: Success
+Stale file handle: Success
+Structure needs cleaning: Success
+Not a XENIX named type file: Success
+No XENIX semaphores available: Success
+Is a named type file: Success
+Remote I/O error: Success
+Disk quota exceeded: Success
+No medium found: Success
+Wrong medium type: Success
+Operation canceled: Success
+Required key not available: Success
+Key has expired: Success
+Key has been revoked: Success
+Key was rejected by service: Success
+Owner died: Success
+State not recoverable: Success
+Operation not possible due to RF-kill: Success
+Memory page has hardware error: Success
