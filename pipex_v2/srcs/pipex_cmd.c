@@ -6,7 +6,7 @@
 /*   By: htoe <htoe@student.42bangkok.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 04:52:57 by htoe              #+#    #+#             */
-/*   Updated: 2026/02/10 08:51:42 by htoe             ###   ########.fr       */
+/*   Updated: 2026/02/15 02:40:55 by htoe             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,20 +49,20 @@ void	cmd_destroy(t_cmd **cmd)
 t_error	exec_cmd(t_cmd **cmd, char **envp)
 {
 	int	i;
-	int	file_exist;
+	int	saw_eacces;
 
 	if (!(*cmd)->paths)
 	{
 		error_command_not_found((*cmd)->argv[0]);
 		return (ERR_CMD_NOT_FOUND);
 	}
-	file_exist = 0;
+	saw_eacces = 0;
 	i = 0;
-	while ((*cmd)->paths[i] && !file_exist)
+	while ((*cmd)->paths[i])
 	{
 		execve((*cmd)->paths[i], (*cmd)->argv, envp);
 		if (errno == EACCES || errno == EISDIR || errno == ENOEXEC)
-			file_exist = 1;
+			 = 1;
 		else
 			i++;
 	}
