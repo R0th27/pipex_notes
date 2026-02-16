@@ -806,7 +806,7 @@ rm -f outf*
 echo -ne "Test 4 : ./pipex Makefile cat \"echo ''yo'\" outf \t\t\t--> "
 ./pipex Makefile "cat" "echo ''yo'" outf 2>/dev/null
 code=$(echo $?)
-echo outf | grep -q yo && echo -ne "${RED}KO (odd nb of quotes) ${END}" || echo -ne "${GREEN}OK ${END}" 
+grep -q yo outf && echo -ne "${RED}KO (odd nb of quotes) ${END}" || echo -ne "${GREEN}OK ${END}" 
 [[ $code -ne 0 ]] && echo -e "${GREEN}(return status != 0)${END}" || echo -e "${YEL}(return status == 0)${END}"
 rm -f outf*
 
